@@ -1,0 +1,15 @@
+#logoText {
+    margin-right: 73%;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#nav-link {
+    color: white;
+}
+
+#nav-link :hover {
+    color: whitesmoke;
+}
+
+.bg-dark {
+}
