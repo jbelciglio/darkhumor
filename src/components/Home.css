@@ -1,3 +1,8 @@
 #background{
     color: gray;
 }
+
+#logo {
+    width: 25em;
+    height: 25em;
+}
