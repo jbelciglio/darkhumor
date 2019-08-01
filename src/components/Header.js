@@ -12,11 +12,19 @@ class Header extends React.Component {
             <div class="pos-f-t">
   <div class="collapse" id="navbarToggleExternalContent">
     <div class="bg-dark p-4">
-    <Link to="/" id="nav-link">Home</Link>
+    <Link to="/Projects" id="navLink">Projects</Link>
+    <Link to="/Contacts" id="navLink">Contacts</Link>
+    <Link to="/Culture" id="navLink">Our Culture</Link>
+    <Link to="/Future" id="navLink">Our Future</Link>
+    <Link to="/Blog" id="navLink">Blog</Link>
     <br></br>
-    <Link to="/Projects" id="nav-link">Projects</Link>
+    <Link to="/Animation" id="navLink_sub">Animation</Link>
     <br></br>
-    <Link to="/Contacts" id="nav-link">Contacts</Link>
+    <Link to ="/Games" id="navLink_sub">Games</Link>
+    <br></br>
+    <Link to ="/Social_Media" id="navLink_sub">Social Media</Link>
+    <br></br>
+    
       
     </div>
   </div>
@@ -26,7 +34,7 @@ class Header extends React.Component {
     </button>
     <div id="logoText">
     
-    <h5 class="text-white h4">Dark Humor Studios</h5>
+    <Link to="/" h5 class="text-white h4">Dark Humor Studios</Link>
     </div>
   </nav>
 </div>

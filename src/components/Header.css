@@ -3,13 +3,19 @@
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
-#nav-link {
+#navLink {
     color: white;
+    margin-left: 2%;
+    margin-right: 4%;
 }
 
-#nav-link :hover {
+#navLink :hover {
     color: whitesmoke;
 }
 
-.bg-dark {
+#navLink_sub {
+    color: rgb(143, 157, 170);
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: small;
 }
