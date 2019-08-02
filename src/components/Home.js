@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./Home.css";
-import darkHumor from './darkHumor.png'
+import darkHumor from '../assets/images/darkHumor.png'
 
 
 class Home extends React.Component {
