@@ -1,50 +1,49 @@
 import React from "react";
-import "./Projects.css";
-import ProjectCard from './ProjectCard';
+import "./SocialMedia.css";
 import placeholder from "../assets/images/placeholder-images-image_large.png";
+import ProjectCard from './ProjectCard';
 
-const Projects = () => {
-
-    return(
-      <div className="container">
+const socialMedia = () => {
+ return (
+    <div className="container">
         <row>
-        <h4 className="projectsTitle">Projects</h4>
+        <h4 className="socialTitle">Social Media</h4>
         <br></br>
-        <h6 className="projectsDesc">
-          Some text about Dark Humor Projects!
+        <h6 className="socialDesc">
+            Here is our social media!
         </h6>
         </row>
         <div className="row">
-          <div className="col">
+        <div className="col">
             <ProjectCard
-              title="Animation"
+              title="Social"
               placeholder={placeholder} 
               text="Aliqua duis commodo velit dolor nulla Lorem culpa consequat voluptate irure veniam exercitation officia excepteur."
-              pathname="/animation"
+              pathname=""
               buttontext="Go somewhere"
             />
           </div>
           <div className="col">
             <ProjectCard
-              title="Games"
+              title="Media"
               placeholder={placeholder} 
               text="Amet magna cupidatat minim elit eiusmod laboris esse cupidatat eiusmod labore sint."
-              pathname="/games"
+              pathname=""
               buttontext="Go somewhere"
             />
           </div>
           <div className="col">
             <ProjectCard
-              title="Social Media"
+              title="Here"
               placeholder={placeholder} 
               text="Amet magna cupidatat minim elit eiusmod laboris esse cupidatat eiusmod labore sint."
-              pathname="/socialmedia"
+              pathname=""
               buttontext="Go somewhere"
             />
           </div>
         </div>
       </div>
-    )
-  }
+ );
+}
 
-export default Projects;
+export default socialMedia;
