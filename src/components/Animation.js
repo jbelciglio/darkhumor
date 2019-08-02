@@ -1,5 +1,5 @@
 import React from "react";
-import "./Projects.css";
+import "./Animation.css";
 import placeholder from "../assets/images/placeholder-images-image_large.png";
 import ProjectCard from './ProjectCard';
 
