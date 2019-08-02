@@ -1,34 +1,50 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./Projects.css";
-import placeholder from "../assets/images/placeholder-images-image_large.png";
 import ProjectCard from './ProjectCard';
+import placeholder from "../assets/images/placeholder-images-image_large.png";
 
-class Projects extends React.Component {
+const Projects = () => {
 
-  componentDidMount() {
-  }
-
-  render() {
     return(
       <div className="container">
-        <h4 className="animationTitle">Animation</h4>
+        <row>
+        <h4 className="projectsTitle">Projects</h4>
         <br></br>
-        <h6 className="animationDesc">
-          We at Dark Humor would punch someone in the face that talked shit about cartoons. We all remember moments in animation that have made us rise to our highest peak of joy and/or metaphysically cut us to the core. We strive to create animated pieces that are memorable and meaningful. Our projects include:
+        <h6 className="projectsDesc">
+          Some text about Dark Humor Projects!
         </h6>
-
+        </row>
         <div className="row">
           <div className="col">
-            <ProjectCard title="Eye of Horus" text="Some quick example text to build on the card title and make up the bulk of the card's content."/>
+            <ProjectCard
+              title="Animation"
+              placeholder={placeholder} 
+              text="Aliqua duis commodo velit dolor nulla Lorem culpa consequat voluptate irure veniam exercitation officia excepteur."
+              pathname="/animation"
+              buttontext="Go somewhere"
+            />
           </div>
           <div className="col">
-            <ProjectCard title="Card title" text="Some quick example text to build on the card title and make up the bulk of the card's content."/>
+            <ProjectCard
+              title="Games"
+              placeholder={placeholder} 
+              text="Amet magna cupidatat minim elit eiusmod laboris esse cupidatat eiusmod labore sint."
+              pathname="/games"
+              buttontext="Go somewhere"
+            />
+          </div>
+          <div className="col">
+            <ProjectCard
+              title="Social Media"
+              placeholder={placeholder} 
+              text="Amet magna cupidatat minim elit eiusmod laboris esse cupidatat eiusmod labore sint."
+              pathname="/socialmedia"
+              buttontext="Go somewhere"
+            />
           </div>
         </div>
       </div>
     )
   }
-}
 
 export default Projects;
