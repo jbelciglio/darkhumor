@@ -2,16 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./Contacts.css";
 
+const Contacts = () => {
 
-class Contacts extends React.Component {
-    componentDidMount() {
-    }
-
-    render(){
-        return(
-            <div className="container">Contacts Page</div>
-        )
-    }
+    return (
+        <div className="container">Contacts Page</div>
+    );
 }
 
 export default Contacts;
