@@ -38,7 +38,7 @@ const Projects = () => {
             title="Social Media"
             placeholder={placeholder}
             text="Amet magna cupidatat minim elit eiusmod laboris esse cupidatat eiusmod labore sint."
-            pathname="/socialmedia"
+            pathname="/social_media"
             buttontext="Go somewhere"
           />
         </div>

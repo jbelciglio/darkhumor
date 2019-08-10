@@ -26,7 +26,7 @@ class App extends React.Component {
           <Route exact path="/projects" component={()=> <Projects />} />
           <Route exact path="/animation" component={()=> <Animation />} />
           <Route exact path="/games" component={()=> <Games />} />
-          <Route exact path="/Social_Media" component={()=> <SocialMedia />} />
+          <Route exact path="/social_media" component={()=> <SocialMedia />} />
           <Route exact path="/contacts" component={()=> <Contacts />} />
           <Route exact path="/culture" component={()=> <Culture />} />
           <Route exact path="/future" component={()=> <Future />} />
