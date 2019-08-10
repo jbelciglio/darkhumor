@@ -2,16 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./Future.css";
 
-class Future extends React.Component {
+const Future = () => {
 
-    componentDidMount(){
-    }
-
-    render() {
-        return(
-            <div className="container">Future Page</div>
-        )
-    }
-} 
+    return (
+        <div className="container">Future Page</div>
+    );
+}
 
 export default Future;
