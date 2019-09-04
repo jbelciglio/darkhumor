@@ -15,6 +15,7 @@
     color:black;
     margin-left: 2%;
     margin-right: 4%;
+    text-shadow: 1px 1px 1px #868686;
 }
 
 #navLink :hover {
@@ -26,16 +27,18 @@
     margin-left: 2%;
     margin-right: 2%;
     font-size: small;
+    text-shadow: 1px 1px 1px #868686;
+
 }
 #navInt {
-    background: rgb(228, 61, 61);
+    background: linear-gradient(to left, rgb(211, 81, 30), red);
 }
 #navMain {
-    background: rgb(187, 49, 49);
+    background: linear-gradient(to left, red, rgb(200, 0, 0));
 }
-#logoNav {
-    
-}
+ 
 #navTitle {
     color: black;
+    text-shadow: 1px 1px 1px #868686;
+
 }

@@ -1,5 +1,5 @@
 #background{
-    color: rgb(31, 31, 31);
+    background: radial-gradient(circle, rgba(72,72,74,1) 0%, rgba(90,90,100,1) 0%, rgba(199,207,208,1) 84%);
 }
 
 #logo {

@@ -1,12 +1,21 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./Culture.css";
+import backgroundTwo from '../assets/images/joseph-ngabo-LZr7ZcMVDs4-unsplash.jpg'
+
 
 const Culture = () => {
 
     return (
         <div className="container">
-            Culture Page
+            <div class="card mb-3">
+  <img src={backgroundTwo} class="card-img-top" alt="..." />
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  </div>
+</div>
         </div>
     );
 }

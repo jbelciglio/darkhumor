@@ -20,8 +20,8 @@ const socialMedia = () => {
             title="Social"
             placeholder={placeholder}
             text="Aliqua duis commodo velit dolor nulla Lorem culpa consequat voluptate irure veniam exercitation officia excepteur."
-            pathname=""
-            buttontext="Go somewhere"
+            pathname="www.instagram.com/darkhumorstudios/"
+            buttontext="Our Instagram"
           />
         </div>
         <div className="col">

@@ -2,6 +2,7 @@ import React from "react";
 import "./Projects.css";
 import ProjectCard from './ProjectCard';
 import placeholder from "../assets/images/placeholder-images-image_large.png";
+import { underline } from "ansi-colors";
 
 const Projects = () => {
 
@@ -11,7 +12,7 @@ const Projects = () => {
         <h4 className="projectsTitle">Projects</h4>
         <br></br>
         <h6 className="projectsDesc">
-          Some text about Dark Humor Projects!
+          At the core of anything with the <u>Dark Humor</u> brand on it is the <i>story</i>. We are a collection of storytellers, and we only do what we do to give life to our stories in whatever form they call for. Here, you can delve into the various forms of storytelling we are utilizing, and best believe we intend on expanding that list in the near future.
         </h6>
       </row>
       <div className="row">
@@ -19,27 +20,27 @@ const Projects = () => {
           <ProjectCard
             title="Animation"
             placeholder={placeholder}
-            text="Aliqua duis commodo velit dolor nulla Lorem culpa consequat voluptate irure veniam exercitation officia excepteur."
+            text="Anyone who tells you that animated shows are for kids can suck it."
             pathname="/animation"
-            buttontext="Go somewhere"
+            buttontext="Check out our Cartoons"
           />
         </div>
         <div className="col">
           <ProjectCard
             title="Games"
             placeholder={placeholder}
-            text="Amet magna cupidatat minim elit eiusmod laboris esse cupidatat eiusmod labore sint."
+            text="Sometimes, you'd rather be the ass-kicker instead of watching said ass-kicker."
             pathname="/games"
-            buttontext="Go somewhere"
+            buttontext="Check out our Games"
           />
         </div>
         <div className="col">
           <ProjectCard
             title="Social Media"
             placeholder={placeholder}
-            text="Amet magna cupidatat minim elit eiusmod laboris esse cupidatat eiusmod labore sint."
+            text="Social media is destroying our society. Come take a look at how we're making it worse."
             pathname="/social_media"
-            buttontext="Go somewhere"
+            buttontext="Check our Socials"
           />
         </div>
       </div>

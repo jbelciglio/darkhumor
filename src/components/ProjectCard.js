@@ -6,7 +6,8 @@ import { Link } from "react-router-dom";
 const projectCard = (props) => {
 
     return (
-        <div class="card" style={{ width: 18 + 'em' }}>
+    
+        <div class="card shadow p-3 mb-5 bg-white rounded" style={{ width: 18 + 'em' }}>
             <img src={props.placeholder} class="card-img-top" alt="..." />
             <div class="card-body">
                 <h5 class="card-title">{props.title}</h5>
